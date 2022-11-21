@@ -1,6 +1,6 @@
 import Router from "@koa/router";
 import exemplesRoutes from '#components/exemples/exemple-route.js'
-import tasksRoutes from "#components/tasks/tasks-route.js";
+import tasksRoutes from "#components/tasks/task-route.js";
 
 const API_V1_ROUTER = new Router({prefix: '/api/v1'})
 
