@@ -1,6 +1,7 @@
 import Router from '@koa/router'
 import * as ExempleControllers from '#components/exemple/exemple-controllers.js'
 
+
 const exemples = new Router()
 
 const todo = [

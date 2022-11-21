@@ -1,6 +1,7 @@
 import Exemple from "#components/exemple/exemple-model.js";
 import Joi from "joi"
 
+
 export async function index(ctx){
     try{
         ctx.body = await Exemple.find({})

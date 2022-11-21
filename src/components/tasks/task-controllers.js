@@ -1,6 +1,7 @@
 import Task from "#components/tasks/tasks-model.js";
 import Joi from "joi";
 
+
 export async function findAll(ctx){
     try{
         ctx.body = await Task.find({});
